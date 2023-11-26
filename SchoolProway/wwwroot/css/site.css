@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color:aliceblue;
+}
+
+thead {
+    background-color: #6495ED;
+    color: aliceblue;
+    border: 3px solid #87CEEB;
+}
+
+tbody {
+    color: black;
+    background-color: azure;
+    border: 3px solid #87CEEB;
+}
